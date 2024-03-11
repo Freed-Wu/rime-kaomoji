@@ -2,7 +2,7 @@ import re
 
 errors: list[tuple[str, int, str]] = []
 
-for name in ('emoji_category.txt', 'emoji_word.txt'):
+for name in ('kaomoji_category.txt'):
     with open(f'opencc/{name}') as file:
         lines = file.readlines()
     for i, line in enumerate(lines):

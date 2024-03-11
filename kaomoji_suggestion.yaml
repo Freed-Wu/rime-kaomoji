@@ -1,0 +1,14 @@
+# encoding: utf-8
+
+patch:
+  switches/@next:
+    name: kaomoji_suggestion
+    reset: 1
+    states: [ "T_T", "^_^" ]
+  'engine/filters/@before 0':
+    simplifier@kaomoji_suggestion
+  kaomoji_suggestion:
+    opencc_config: kaomoji.json
+    option_name: kaomoji_suggestion
+    tips: none
+    inherit_comment: false
