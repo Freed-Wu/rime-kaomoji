@@ -6,9 +6,9 @@ Uploaders: Wu, Zhenyu <wuzhenyu@ustc.edu>
 Build-Depends: debhelper-compat (= 9)
 Rules-Requires-Root: no
 Standards-Version: 4.6.0
-Homepage: https://github.com/Freed-Wu
-Vcs-Git: https://github.com/Freed-Wu
-Vcs-Browser: https://github.com/Freed-Wu
+Homepage: https://github.com/Freed-Wu/rime-kaomoji
+Vcs-Git: https://github.com/Freed-Wu/rime-kaomoji
+Vcs-Browser: https://github.com/Freed-Wu/rime-kaomoji
 
 Package: rime-data-kaomoji
 Architecture: all
